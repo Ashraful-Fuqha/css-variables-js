@@ -1,0 +1,55 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+h2{
+    color: bisque;
+}
+
+.hl{
+    color: #ffc600;
+}
+
+label{
+    color: khaki;
+}
+
+
+body{
+    text-align: center;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    color: white;
+    font-family: 'Kalnia', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    min-height: 100vh;
+}
+
+.controls{
+    margin-bottom: 4rem;
+}
+
+input{
+    width: 100px;
+}
+
+@media only screen and (min-width:375px){
+    img{
+        width: 80%;
+    }
+    h2{
+        font-size: 3rem;
+    }
+
+    label{
+        font-size: 2.8rem;
+    }
+}
