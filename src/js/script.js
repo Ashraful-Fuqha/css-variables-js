@@ -6,5 +6,5 @@ function handleChange(){
     console.log("Changaa!")
 }
 
-// inputs.forEach(input => input.addEventListener('scroll', handleChange))
+inputs.forEach(input => input.addEventListener('click', handleChange))
 inputs.forEach(input => input.addEventListener('mousemove', handleChange))

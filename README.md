@@ -1,4 +1,4 @@
-# Drum Kit JS
+# CSS variables and JS
 
 This is a solution to the [CSS variables and JS]() This is challenge from WesBos to train beginners Vanilla JS. This is Day3 Project.  
 
