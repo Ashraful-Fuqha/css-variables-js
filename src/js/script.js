@@ -6,5 +6,14 @@ function handleChange(){
     console.log("Changaa!")
 }
 
-inputs.forEach(input => input.addEventListener('click', handleChange))
+inputs.forEach(input => input.addEventListener('change', handleChange))
 inputs.forEach(input => input.addEventListener('mousemove', handleChange))
+
+const inputss = document.querySelectorAll('input')
+
+inputss.forEach(input =>{
+    input.addEventListener('click', () =>{
+        const suffix = this.dataset.sizing || '';
+        document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
+    })
+})
